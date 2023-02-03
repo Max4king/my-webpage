@@ -113,9 +113,9 @@ body {
 .call-section {
   display: flex;
   margin: 150px 200px 150px 200px;
-  padding: 20px 20px 20px 20px;
+  padding: 50px 120px 50px 100px;
   color: white;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: red;
   text-align:center;
   border-radius: 10px;
@@ -129,9 +129,13 @@ body {
   align-items: flex-start;
 }
 
+.text-in-call h3, .text-in-call p{
+  margin: 0 0 0 0;
+}
+
 .button-in-call {
-  display: flex;
-  align-items: flex-start;
+  flex: 0;
+  align-self: center;
   justify-content: left;
   padding-left: 20px;
 }
