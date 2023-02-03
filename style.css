@@ -110,22 +110,35 @@ body {
   padding: 0 250px 50px 0;
 }
 
-.call-section p, .call-section h3 {
-  display: inline;
-  padding: 0 0 0 50px;
-}
-
 .call-section {
-
+  display: flex;
   margin: 150px 200px 150px 200px;
-  padding: 50px 50px 50px 50px;
+  padding: 20px 20px 20px 20px;
   color: white;
-  justify-content: left;
+  justify-content: space-evenly;
   background-color: red;
   text-align:center;
+  border-radius: 10px;
+}
+
+.text-in-call {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-in-call {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  padding-left: 20px;
 }
 
 .button2 {
+  height:20px ;
+  flex: 0 0 0px;
   border: 1px solid white;
 }
 
